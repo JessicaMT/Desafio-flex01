@@ -1,0 +1,116 @@
+.main {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  color: #444749;
+  width: 120%;    
+}
+
+.chats{
+  width: 20%;
+}
+
+.usuario {
+  display: flex;
+  border-style: solid;
+  border-color: #E8EBE4;
+  border-width: thin;
+  justify-content: space-around;
+}
+
+#imagenmaria {
+  width: 25%;
+  height: 85%;
+  border-radius: 70%;  
+}
+
+.actividadusuario { 
+  width: 60%;
+}
+
+.infousuario h1{
+  font-size: 16px;
+}
+
+.infousuario p{
+  font-size: 14px;    
+}
+
+.infousuario {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+.infousuario img {
+  width: 25%;
+  height: 90%;
+  border-radius: 60%;  
+}
+
+.iconos {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #BEC1BB;
+}
+
+#estado {
+  color: #BEC1BB;
+  font-size: 12px;
+}
+
+.botonnuevochat {
+  display: flex;
+  border-color: #E8EBE4;
+  justify-content: center;
+  padding: 10% 0 10% 0;
+}
+
+.botonnuevochat h1 {
+  font-size: 20px ;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.botonnuevochat :hover {
+  background-color: #CDC3E6;
+  color: white;
+}
+
+.botonnuevochat :focus {
+  background-color: #BEC1BB;
+}
+
+button {
+  border: none;
+  background-color: #A491D2;
+  color: #E8EBE4;
+  padding: 1% 15%;
+}
+
+.nuevo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: thin;
+  border-color: #E8EBE4;
+  background-color: #E8EBE4;
+  width: 70%;
+}
+
+.nuevo img{
+  width: 400px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+
+.titulo h1, p{
+  margin: auto;
+}
